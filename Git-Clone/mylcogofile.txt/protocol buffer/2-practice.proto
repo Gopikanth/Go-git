@@ -1,0 +1,6 @@
+syntax = "proto3"
+message Dob{
+    int32 Year = 1;
+    int32 Month = 2;
+    int32 Day = 3;
+}
