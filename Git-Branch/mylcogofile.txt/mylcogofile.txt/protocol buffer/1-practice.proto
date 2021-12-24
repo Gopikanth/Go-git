@@ -1,0 +1,19 @@
+syntax = "proto3"
+message Mymessage{
+    int32 Year = 1;
+    int32 Month = 2;
+    int32 Day = 3;
+    double Latitude = 4;
+    double Longitude = 5;
+    string Currency_Code = 6;
+    float32 Integral_amount = 7;
+    float32 Decimal_amount = 8;
+    enum  Dayofweek{
+        UNKNOWN_DAY = 0;
+        MONDAY = 1;
+    }
+    Dayofweek dayofweek = 9 ;
+    string First_name = 10;
+    repeated string Middle_name = 11;
+    string Last_name = 12;
+}
